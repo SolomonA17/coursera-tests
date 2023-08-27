@@ -1,42 +1,69 @@
-*{
-	margin: 0;
-	padding: 0;
-	
-}
-.navbar{
-
-border: none;
-background-color: black;
-color: #61122F;
-}
 body{
-	background-color: #61122F;
-	color: white;
-}
-.glyphicon{
-	font-size: 30px;
-	color:#61122F; 
-}
-
-.center{
-	width: 90%;
-	background-color: grey;
+font-size:16px;
+color: #black;
+margin: 0;
+padding: 0;
 
 }
-.container
-{
-	background-color: grey;
+
+#nav-header {
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  background-color: #A9A9A9; /*Dark Gray*/
+  color: black;
+  height: 65px;
 }
-.text-center{
-	font-size: 30px;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+
 }
 
-h2{
+.navbar-brand h1 { /* food plc */
+	position: absolute;
+	top: 15px;
+	left: 25px;
+	color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding: 10px;
+}
+
+#collapsable-nav{
+	background-color: ;
 	text-align: center;
+	font-size: 20px;
 }
-#myNavbar ul li a {
-	color: #61122F;
+
+/*
+#nav-list{
+	float: right;
+	background-color: darkblue; 
+
 }
-.navbar-brand{
-font-size: 30px;	
+*/
+.active{
+	float: right;
+
+}
+.container h1{
+	font-weight: bold;
+}
+div > h4{
+	margin-top: 15px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+#chicken, #sushi, #beef{
+	background-color: gray;
+	color: black;
+}
+
+@media(max-width:767px){
+	.container div{
+		margin: 20px;
+	}
 }
